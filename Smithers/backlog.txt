@@ -1,0 +1,44 @@
+# BACKLOG.txt
+
+TODO:
+Additional Styling Configurations: Allow for theme switching, animations, and custom widget styles
+Add MASS as a variable to use on the results page
+Documentation: Makes the code more maintainable and easier for others to understand
+Testing Code: Ensures the application works correctly and helps catch bugs
+Improve the results page with more detailed analysis
+Add data visualization for the results
+Add tooltips or help buttons for more information
+Improve the overall styling and UI
+Add more steps
+
+DONE:
+Add a progress indicator to show which step you're on
+Helper Functions: Reduce code duplication and provide common utilities
+
+-
+
+1. Review Imports and Dependencies
+Action: Examine each file to ensure all necessary modules and classes are imported without creating circular dependencies.
+Goal: Prevent runtime errors and ensure smooth operation.
+2. Enhance Error Handling
+Action: Implement consistent use of the ErrorHandler across all files. Add specific error messages and handle different error types appropriately.
+Goal: Improve robustness and provide a better user experience by clearly communicating issues.
+3. Strengthen Step Management
+Action: Verify that StepsManager correctly imports and instantiates all step classes. Ensure steps are sorted accurately based on their _order attribute.
+Goal: Ensure reliable step progression and prevent crashes due to misconfigured steps.
+4. Improve UI Consistency
+Action: Confirm that all UI elements apply styles from styles.py. Check each widget to ensure correct style application.
+Goal: Achieve a uniform and visually appealing interface.
+5. Optimize Progress Indication
+Action: Ensure ProgressIndicator accurately reflects the user's progress through steps.
+Goal: Provide clear and accurate feedback on progress to enhance user experience.
+6. Enhance Data Processing Accuracy
+Action: Review and test data processing functions in helpers/data_processing.py for accuracy, especially in edge cases.
+Goal: Ensure reliable and precise calculations for user data.
+7. Add Detailed Logging
+Action: Incorporate logging statements in critical areas to facilitate easier debugging.
+Goal: Provide insights into application behavior for efficient troubleshooting.
+8. Ensure User-Friendly Experience
+Action: Check the order and flow of steps, provide clear instructions, and ensure intuitive navigation.
+Goal: Offer an intuitive and feedback-rich user experience.
+By methodically addressing each area, you can enhance the application's functionality, reliability, and user satisfaction.
